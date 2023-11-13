@@ -2,11 +2,11 @@
 
 Takes .txt file and return list of most often occurring words.
 
-- `url` ********\********* url to the .txt file
-- `textEncoding` **\*\*** type of character encoding, by default utf-8
-- `minWordLength` **\*** minimal length of a word, by default 0
-- `maxWordLength` **\*** maximal length of a word, by default 99
-- `numOfEntities` **\*** how many words you want to return, by default 10
+- `url`  url to the .txt file
+- `textEncoding`  type of character encoding, by default utf-8
+- `minWordLength`  minimal length of a word, by default 0
+- `maxWordLength`  maximal length of a word, by default 99
+- `numOfEntities`  how many words you want to return, by default 10
 - `inConsole`
   if True, returns curated for console version of output
   if False, returns list of key-value pairs
