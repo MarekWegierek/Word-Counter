@@ -8,8 +8,8 @@ Takes .txt file and return list of most often occurring words.
 - `maxWordLength`  maximal length of a word, by default 99
 - `numOfEntities`  how many words you want to return, by default 10
 - `inConsole`
-  if True, returns curated for console version of output
-  if False, returns list of key-value pairs
+  -- if True, returns curated for console version of output
+  -- if False, returns list of key-value pairs
 
 ## Example
 
