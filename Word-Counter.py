@@ -1,4 +1,4 @@
-url = './test.txt'
+url = './test2.txt'
 
 def wordCounter(url, textEncoding = 'utf8', minWordLength = 0, maxWordLength = 99, numOfEntities = 10, inConsole = True):
     """ Takes .txt file and return list of most often occurring words.
@@ -37,4 +37,3 @@ def wordCounter(url, textEncoding = 'utf8', minWordLength = 0, maxWordLength = 9
     if inConsole !=True:
         return result
 
-print(wordCounter(url=url, minWordLength=0, numOfEntities=50, inConsole=True))
